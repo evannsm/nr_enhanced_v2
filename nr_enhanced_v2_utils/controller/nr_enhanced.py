@@ -8,7 +8,7 @@ from nr_enhanced_v2_utils.controller.nr_utils import(
     get_integral_cbf,
 )
 
-ALPHA = jnp.array([20.0, 30.0, 30.0, 30.0])
+ALPHA = jnp.array([30.0, 40.0, 40.0, 40.0])
 USE_CBF: bool = True
 
 @jit
