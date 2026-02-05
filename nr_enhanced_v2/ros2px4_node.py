@@ -73,6 +73,7 @@ class OffboardControl(Node):
         self.spin = spin
         self.pyjoules_on = pyjoules
         self.logging_enabled = logging_enabled
+        
         if self.pyjoules_on:
             print("PyJoules energy monitoring ENABLED")
             self.csv_handler = csv_handler
